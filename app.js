@@ -41,9 +41,9 @@ var wholePi = function () {
   }
 };
 
-var showPiece = function(piece){
+var showPiece = function(current){
   // function that fades in and fades out when display changes
-  
+  piece = current;
   console.log('in showPiece');
   $('#resultsDiv').fadeOut('slow', function(){
     $('#resultsDiv').html("<p>" + piPieces[piece].first_name + " " + piPieces[piece].last_name + "<br>" + piPieces[piece].info);
