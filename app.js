@@ -41,7 +41,7 @@ var wholePi = function () {
   }
 };
 
-var showPiece = function(current){
+var showPiece = function(piece){
   // function that fades in and fades out when display changes
   
   console.log('in showPiece');
