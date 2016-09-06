@@ -30,7 +30,7 @@ $( document ).ready(function(){
   });
 });
 var updateCurrent = function () {
-  $('#currentPiece').html("<p>Showing " + (piece + 1) + " of 17</p>");
+  $('#currentPiece').html("<p>Showing " + (piece + 1) + " of 18</p>");
   console.log('update piece =', piece);
 };
 
@@ -58,7 +58,7 @@ var showPiece = function(current){
 var nextPiece = function(){
   // function to move the display to the next student in the list or if at the end go back to index 0
   console.log('in nextPiece');
-  if (piece == 16) {
+  if (piece == 17) {
     piece = 0;
     showPiece(piece);
   }else{
@@ -71,7 +71,7 @@ var prevPiece = function(){
   //function to go to the previous student, or go to the end of the list.
   console.log('in prevPiece');
   if (piece == 0) {
-    piece = 16;
+    piece = 17;
     showPiece(piece);
   }else{
   piece --;
