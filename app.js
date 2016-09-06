@@ -37,7 +37,7 @@ var updateCurrent = function () {
 var wholePi = function () {
   // appends whole array as buttons on the dom
   for (var i = 0; i < piPieces.length; i++) {
-    $('#buttons').append("<button onClick='showPiece(" + i + ")' class='btn btn-info btn-xs'>" + piPieces[i].first_name + " " + piPieces[i].last_name + "</button>");
+    $('#buttons').append("<button onClick='showPiece(" + i + ")' class='btn btn-info btn-xs'>" + piPieces[i].first_name + " " + "</button>");
   }
 };
 
